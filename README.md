@@ -27,9 +27,13 @@ GLOBAL::If you’re installing something that you want to use in your shell, on 
 
 grunt
 ====
+
+pwd>set PATH=X:\AppData\Roaming\npm;%PATH%
+
 http://attebury.me/blog/2014/01/nodejs-gruntjs-and-path-errors-in-windows-7
 
 [[edit in X:/AppData/Roaming/npm]]
+
 @IF EXIST "%~dp0\node.exe" (
   "%~dp0\node.exe"  "%~dp0\Roaming\npm\node_modules\grunt-cli" %*
 ) ELSE (
