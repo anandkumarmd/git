@@ -24,3 +24,14 @@ npm -g  (global vs local)
 In general, the rule of thumb is:
 LOCAL::If you’re installing something that you want to use in your program, using require('whatever'), then install it locally, at the root of your project.
 GLOBAL::If you’re installing something that you want to use in your shell, on the command line or something, install it globally, so that its binaries end up in your PATH environment variable.
+
+grunt
+====
+http://attebury.me/blog/2014/01/nodejs-gruntjs-and-path-errors-in-windows-7
+
+[[edit in X:/AppData/Roaming/npm]]
+@IF EXIST "%~dp0\node.exe" (
+  "%~dp0\node.exe"  "%~dp0\Roaming\npm\node_modules\grunt-cli" %*
+) ELSE (
+  node  "%~dp0\node_modules\grunt-cli\bin\grunt" %*
+)
