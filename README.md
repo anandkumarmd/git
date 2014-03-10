@@ -28,6 +28,39 @@ In general, the rule of thumb is:
 LOCAL::If you’re installing something that you want to use in your program, using require('whatever'), then install it locally, at the root of your project.
 GLOBAL::If you’re installing something that you want to use in your shell, on the command line or something, install it globally, so that its binaries end up in your PATH environment variable.
 
+
+bower
+====
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'H:\AppData\Roaming\npm\Roaming\npm\node_modules\bower'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+
+change in bower.cmd
+- - - - - - - - - - 
+@IF EXIST "%~dp0\node.exe" (
+  "%~dp0\node.exe"  "%~dp0\Roaming\npm\node_modules\bower" %*
+) ELSE (
+  node  "%~dp0\Roaming\npm\node_modules\bower" %*
+)
+
+
+TO
+
+@IF EXIST "%~dp0\node.exe" (
+  "%~dp0\node.exe"  "%~dp0\Roaming\npm\node_modules\bower" %*
+) ELSE (
+  node  "%~dp0\node_modules\bower" %*
+)
+
+
 grunt
 ====
 
