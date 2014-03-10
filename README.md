@@ -32,6 +32,8 @@ GLOBAL::If you’re installing something that you want to use in your shell, on 
 bower
 ====
 
+Try reinstalling it. npm cache clean && npm uninstall -g bower && npm install -g bower
+
 module.js:340
     throw err;
           ^
