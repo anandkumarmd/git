@@ -37,7 +37,7 @@ https://github.com/bower/bower
 3.local install
    npm install bower
 4.set path   
-   set PATH=X:\Program Files\nodejs\;X:\Program Files (x86)\Git\bin;H:\myfolder\node_modules\.bin;
+   set PATH=X:\install\nodejs\;X:\install\Git\bin;X:\myfolder\node_modules\.bin;
 5.bower install ( if you have bower.json)
   bower install <package>
   bower install <package>#version
