@@ -1,1 +1,3 @@
+set PATH=%PATH%;X:\path\to\curl\curl.exe
+
 curl -O www.example.com/example.html
