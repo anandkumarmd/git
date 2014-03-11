@@ -31,6 +31,27 @@ GLOBAL::If you’re installing something that you want to use in your shell, on 
 
 bower
 ====
+https://github.com/bower/bower
+1.install nodejs
+2.need git to be installed
+3.local install
+   npm install bower
+4.set path   
+   set PATH=X:\Program Files\nodejs\;X:\Program Files (x86)\Git\bin;H:\myfolder\node_modules\.bin;
+5.bower install ( if you have bower.json)
+  bower install <package>
+  bower install <package>#version
+  bower install name=<package>#version
+  bower uninstall <package>
+  bower search <package> | grep xxxx
+  bower lookup <xxxx>
+  use file .bowerrc if need to install vendor folders in different location
+  
+  
+  
+  
+
+
 
 Try reinstalling it. npm cache clean && npm uninstall -g bower && npm install -g bower
 
