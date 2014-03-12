@@ -87,6 +87,12 @@ TO
 grunt
 ====
 
+http://gruntjs.com/getting-started
+For execution needs 2 files:
+package.json  (cmd > npm install) install dependencies
+Gruntfile.js  (grunt watch/build) load dependencies and execute task
+
+
 pwd>set PATH=X:\AppData\Roaming\npm;%PATH%
 
 http://attebury.me/blog/2014/01/nodejs-gruntjs-and-path-errors-in-windows-7
