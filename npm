@@ -32,6 +32,7 @@ GLOBAL::If you’re installing something that you want to use in your shell, on 
 ///////////////////////////////
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+== INSTALL ==
 1.set Path for git
 @ X:\myfolder
  2.npm install bower
@@ -43,6 +44,7 @@ set PATH=%PATH%;C:\install\Git\bin;X:\myfolder\node_modules\.bin
 
 go to root of ng boilerplate
 
+== EXECUTION ==
 npm install (uses package.json to install dependencies for grunt in node_module folder)
 bower install (uses bower.json and [bowerrc](if defined) to download all dependent jar files)
 grunt watch  (uses Gruntfile.js where task defined)
