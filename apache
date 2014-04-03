@@ -1,1 +1,8 @@
 kool
+
+Apache/conf/httpd.conf
+---------
+
+DocumentRoot "X:/dev/webApp/"
+
+<Directory "X:/dev/webApp/">
