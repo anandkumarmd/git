@@ -46,9 +46,20 @@ set PATH=%PATH%;C:\install\Git\bin;X:\myfolder\node_modules\.bin
 go to root of ng boilerplate
 
 == EXECUTION ==
+
 1. npm install (uses package.json to install dependencies for grunt in node_module folder)
 2. bower install (uses bower.json and [bowerrc](if defined) to download all dependent jar files)
 3. grunt watch  (uses Gruntfile.js where task defined)
+
+
+for boilerplate; to include new files (build/vendor)
+1. build.config.js add in the vendor/
+2. src/less/main.less which imports the bootstrap less. 
+   You could use specific less files from bootstrap or do an import of everything with:
+   
+   @import '../../vendor/bootstrap/less/bootstrap.less';
+
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 bower
