@@ -48,8 +48,8 @@ go to root of ng boilerplate
 == EXECUTION ==
 
 1. npm install   (uses package.json to install dependencies for grunt in node_module folder)
-2. bower install (uses bower.json and [bowerrc](if defined) to download all dependent jar files)
-3. grunt watch   (uses Gruntfile.js where task defined)
+2. bower install (uses bower.json      & [.bowerrc](if defined) to download all dependent jar files)
+3. grunt watch   (uses build.config.js & Gruntfile.js where task defined)
 
 
 for boilerplate; to include new files (build/vendor)
@@ -58,6 +58,17 @@ for boilerplate; to include new files (build/vendor)
    You could use specific less files from bootstrap or do an import of everything with:
    
    @import '../../vendor/bootstrap/less/bootstrap.less';
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+BOWER
+1. .bowerrc
+2. bower.json
+
+
+GRUNT
+1. build.config.js
+2. Gruntfile.js
+
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
