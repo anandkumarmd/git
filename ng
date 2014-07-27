@@ -4,3 +4,4 @@ The css, the icons, and a javascript file that has the more complicated controls
 angular-ui-bootstrap angular-ui.github.io/bootstrap rewrites the javascript as angular directives but 
 retains the original css and icons and does not include those files in its ditsribution. – 
 -----------------------------------------------------------------------------------------------------------------------------
+exec sequence
