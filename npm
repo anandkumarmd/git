@@ -61,6 +61,8 @@ for boilerplate; to include new files (build/vendor)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 BOWER
+http://bower.io/docs/api/
+
 1. .bowerrc
 2. bower.json
 change bower's default components folder
@@ -69,6 +71,10 @@ Create a file .bowerrc in the project root with the content:
   "directory" : "public/components"
 }
 Run bower install again.
+
+>bower list [list all dependents]
+>bower init [creates bower.json file interactivlly]
+
 
 GRUNT
 1. build.config.js
