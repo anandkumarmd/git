@@ -6,3 +6,7 @@ Apache/conf/httpd.conf
 DocumentRoot "X:/dev/webApp/"
 
 <Directory "X:/dev/webApp/">
+
+(CATALINA_BASE)/webapps/, there is a directory called ROOT (the capitals are important, even under Windows). 
+That is the residence of the current Tomcat default application, the one that is called right now when a user calls up  
+http://myhost.company.com[:port]
