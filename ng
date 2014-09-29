@@ -10,3 +10,13 @@ build steps
   grunt (run task for compile/move).
 
 exec sequence
+
+
+    ng-class - use when the set of CSS styles is static/known ahead of time
+    ng-style - use when you can't define a CSS class because the style values may change dynamically. Think programmable control of the style values.
+    ng-show and ng-hide - use if you only need to show or hide something (modifies CSS)
+    ng-if - new in version 1.1.5, use instead of the more verbose ng-switch if you only need to check for a single condition (modifies DOM)
+    ng-switch - use instead of using several mutually exclusive ng-shows (modifies DOM)
+    ng-disabled and ng-readonly - use to restrict form element behavior
+    ng-animate - new in version 1.1.4, use to add CSS3 transitions/animations
+
