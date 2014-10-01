@@ -36,14 +36,8 @@ $apply()
     ng-switch - use instead of using several mutually exclusive ng-shows (modifies DOM)
     ng-disabled and ng-readonly - use to restrict form element behavior
     ng-animate - new in version 1.1.4, use to add CSS3 transitions/animations
+                https://docs.angularjs.org/api/ngAnimate
                 http://www.yearofmoo.com/2013/08/remastered-animation-in-angularjs-1-2.html#how-to-make-animations-in-angularjs
-                Directive	Animation Type
-                ngRepeat >	enter, leave and move
-                ngView >	enter and leave
-                ngInclude >	enter and leave
-                ngSwitch >	enter and leave
-                ngIf >	enter and leave
-                ngShow and ngHide >	show and hide
 
     
 events //http://tutorials.jenkov.com/angularjs/events.html
