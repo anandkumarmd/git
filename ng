@@ -10,6 +10,14 @@ build steps
   grunt (run task for compile/move).
 
 exec sequence
+-------------
+  dom > read from ng-app > bind view w/ controller....??
+  
+  http://stackoverflow.com/questions/24615103/angular-directives-when-and-how-to-use-compile-controller-pre-link-and-post
+  compile    ()
+  controller (creates scope)
+  prelink    ()
+  postlink   ()
 
 
     ng-class - use when the set of CSS styles is static/known ahead of time
