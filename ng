@@ -20,6 +20,7 @@ $watch()
 $digest()
 $apply()  
   
+  http://odetocode.com/blogs/scott/archive/2014/05/28/compile-pre-and-post-linking-in-angularjs.aspx
   http://stackoverflow.com/questions/24615103/angular-directives-when-and-how-to-use-compile-controller-pre-link-and-post
   compile    ()
   controller (creates scope)
