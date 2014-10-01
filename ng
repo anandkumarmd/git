@@ -13,6 +13,8 @@ exec sequence
 -------------
   dom > read from ng-app > bind view w/ controller....??
 
+$scope Hierarchy  //http://tutorials.jenkov.com/angularjs/scope-hierarchy.html  
+
 //http://tutorials.jenkov.com/angularjs/watch-digest-apply.html  
 $watch()
 $digest()
@@ -24,7 +26,7 @@ $apply()
   prelink    ()
   postlink   ()
 
-
+------------------------------------------------------------------------------------------------------------------------------
     ng-class - use when the set of CSS styles is static/known ahead of time
     ng-style - use when you can't define a CSS class because the style values may change dynamically. Think programmable control of the style values.
     ng-show and ng-hide - use if you only need to show or hide something (modifies CSS)
