@@ -27,7 +27,22 @@ exec sequence
     ng-switch - use instead of using several mutually exclusive ng-shows (modifies DOM)
     ng-disabled and ng-readonly - use to restrict form element behavior
     ng-animate - new in version 1.1.4, use to add CSS3 transitions/animations
+
     
+events //http://tutorials.jenkov.com/angularjs/events.html
+-----
+ng-click
+ng-dbl-click
+ng-mousedown
+ng-mouseup
+ng-mouseenter
+ng-mouseleave
+ng-mousemove
+ng-mouseover
+ng-keydown
+ng-keyup
+ng-keypress
+ng-change
     
     
     http://www.tutorialspoint.com/bootstrap/bootstrap_navbar.htm
