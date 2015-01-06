@@ -9,10 +9,10 @@ karma:
 npm: 
 
 npm
-================================================================
+====================================================================
   C:\Users[username]\AppData\Roaming\npm
   main goal is use nodejs to execute js files (bower, grunt, karma)
-=================================================================
+====================================================================
 
 npm install -g karma 
 (only installs C:\Users\kanand\AppData\Roaming\npm\node_modules\karma folder with bin\karma (js file)
