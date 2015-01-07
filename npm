@@ -8,6 +8,7 @@ jasmine: http://jasmine.github.io/2.0/introduction.html
 karma: 
 npm: 
 mocha: https://github.com/nelsonic/learn-mocha
+(http://www.yearofmoo.com/2013/01/full-spectrum-testing-with-angularjs-and-karma.html)
 
 npm
 ====================================================================
