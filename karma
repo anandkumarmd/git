@@ -1,0 +1,23 @@
+//https://www.airpair.com/angularjs/posts/testing-angular-with-karma
+
+npm init
+
+npm install karma -save-dev
+node ./node_modules/karma/bin/karma init
+node ./node_modules/karma/bin/karma start
+
+npm install angular --save-dev
+npm install angular-mocks --save-dev
+
+karma.conf.js
+files: [
+		
+	'node_modules/angular/angular.js',
+
+	'node_modules/angular-mocks/angular-mocks.js',
+
+        'src/**/*.js'
+
+],
+
+node ./node_modules/karma/bin/karma start karma.conf.js
