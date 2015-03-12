@@ -17,8 +17,8 @@ grunt sass
   |-[app]
     |-[src]
     |-[bower_components] (app vendor LIB/JS/CSS/..)
-      |-[angular
-      |-[bootstrap-sass-offical
+      |-#angular
+      |-#bootstrap-sass-offical
       |-[jquery
     |-[assets
     |-index.html
