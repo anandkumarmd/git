@@ -7,7 +7,7 @@ grunt sass
 myproject/
   |--package.json
   |--Gruntfile.js
-  |--node_modules/ (grunt TOOLS)
+  |--node_modules/ (grunt TOOLS for Gruntfile.js)
     |--grunt
     |--grunt-init
     |--grunt-contrib-watch
@@ -16,7 +16,7 @@ myproject/
   |--.bowerc
   |--app/
     |--src/
-    |--bower_components/ (app vendor LIB/JS/CSS/..)
+    |--bower_components/ (vendor LIB/JS/CSS/..)
       |--angular/
       |--bootstrap-sass-offical/
       |--jquery/
