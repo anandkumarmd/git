@@ -14,11 +14,11 @@ myproject/
     |--grunt-contrib-sass
   |--bower.json
   |--.bowerc
-  |--app/
-    |--src/
     |--bower_components/ (vendor LIB/JS/CSS/..)
       |--angular/
       |--bootstrap-sass-offical/
       |--jquery/
+  |--app/
+    |--src/
     |--assets/
     |--index.html
