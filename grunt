@@ -4,21 +4,21 @@ http://chariotsolutions.com/blog/post/grunt-javascript-centric-build-tool/
 /*http://blog.meredithunderell.com/2014/07/24/setting-up-twitter-bootstrap-sass-with-grunt-in-an-angularjs-project/ */
 grunt sass
 
-[myproject]
+myproject/
   |-package.json
   |-Gruntfile.js
   |-bower.json
   |-.bowerc
-  |-[node_modules] (grunt TOOLS)
+  |-node_modules/ (grunt TOOLS)
     |-grunt
     |-grunt-init
     |-grunt-contrib-watch
     |-grunt-contrib-sass
-  |-[app]
-    |-[src]
-    |-[bower_components] (app vendor LIB/JS/CSS/..)
-      |-#angular
-      |-#bootstrap-sass-offical
-      |-[jquery
-    |-[assets
+  |-app/
+    |-src/
+    |-bower_components/ (app vendor LIB/JS/CSS/..)
+      |-angular/
+      |-bootstrap-sass-offical/
+      |-jquery/
+    |-assets/
     |-index.html
