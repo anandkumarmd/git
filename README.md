@@ -23,7 +23,8 @@ step 4: run karma (to test our **.spec.js files)
         
         > npm install -g karma-cli  (globally) & set PATH=C:\Users\Kumar\AppData\Roaming\npm;
           following happens
-          1.folder and file created 
+          1.folders and files created 
+            C:\Users\Kumar\AppData\Roaming\npm\           
             C:\Users\Kumar\AppData\Roaming\npm\node_modules\karma\**           
             C:\Users\Kumar\AppData\Roaming\npm\karma.cmd
             C:\Users\Kumar\AppData\Roaming\npm\node_modules\karma-cli\bin\karma  (has resolve function)
