@@ -4,6 +4,8 @@ git
 http header::
 http://code.tutsplus.com/tutorials/http-headers-for-dummies--net-8039
 
+NOTE: NODE.js is the engine, all other are js files to be executed by node.js
+npm: install all the node.js plugins (karma-testing, bower-libs, grunt-tasks,....)
 
 NPM: 
 step 1: install node.js and set PATH=C:\Program Files\nodejs;
