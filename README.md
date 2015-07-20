@@ -55,9 +55,11 @@ C:\Users\Kumar\AppData\Roaming\npm
   
   [node_modules] folder contains all plugins
     bower (install javascrip framework)
+    grunt (task builder and execute ~ ant) OR gulp (on task feeds next)
     karma (install and execute testing framework & plugins)
     karma-jasmine
     karma-chrome-launcher
+    
 
 
 
