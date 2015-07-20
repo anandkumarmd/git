@@ -9,7 +9,12 @@ npm: install all the node.js plugins (karma-testing, bower-libs, grunt-tasks,...
 
 npm     -> package.json (npm init, npm install karma --save -dev)
 karma   -> karma start karma.conf.js
-bower   ->
+bower   -> npm install bower -g 
+           bower install/uninstall angular --save (needs git in PATH) --save to bower.json
+           creates folder bower_components 
+           (bower init => install packages from bower.json)
+           1. bower.json
+           2. .bowerrc  (need to create file, edit {  "directory" : "mydir" })
 grunt   -> gruntfile.js
 
 NPM: 
