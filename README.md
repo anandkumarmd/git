@@ -7,6 +7,11 @@ http://code.tutsplus.com/tutorials/http-headers-for-dummies--net-8039
 NOTE: NODE.js is the engine, all other are js files to be executed by node.js
 npm: install all the node.js plugins (karma-testing, bower-libs, grunt-tasks,....)
 
+npm     -> package.json (npm init, npm install karma --save -dev)
+karma   -> karma start karma.conf.js
+bower   ->
+grunt   -> gruntfile.js
+
 NPM: 
 step 1: install node.js and set PATH=C:\Program Files\nodejs;
 step 2: go to your project folder root (c:/project/web/poc/jstests)
