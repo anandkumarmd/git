@@ -4,6 +4,45 @@ git
 http header::
 http://code.tutsplus.com/tutorials/http-headers-for-dummies--net-8039
 
+
+NPM: 
+step 1: install node.js and set PATH=C:\Program Files\nodejs;
+step 2: go to your project folder root (c:/project/web/poc/jstests)
+        > npm init (creates package.json file)
+        here a folder ./node_modules will be created under which all plugins will be installed
+--KARMA        
+step 3: install karma and karma plugins (locally)
+        > npm install karma --save-dev
+           (creates config file karma.conf.js i.e location of js and test files spec.js)
+        > npm install karma-jasmine karma-chrome-launcher --save-dev (plugins jasimine, chrome-launcher)
+    1.install karma, karma-jasmine and karma-chrome-launcher packages into [node_modules] in current working directory
+    2.save these as devDependencies in <package.json>, so other developer do npm install to get these dependencies   installed.
+
+step 4: run karma (to test our **.spec.js files)
+        > ./node_modules/karma/bin/karma start  (boring so install kumar-cli globally)
+        
+        > npm install -g karma-cli  (globally) & set PATH=C:\Users\Kumar\AppData\Roaming\npm;
+          following happens
+          1.folder and file created 
+            C:\Users\Kumar\AppData\Roaming\npm\node_modules\karma\**           
+            C:\Users\Kumar\AppData\Roaming\npm\karma.cmd
+            C:\Users\Kumar\AppData\Roaming\npm\node_modules\karma-cli\bin\karma  (has resolve function)
+          2.how executes
+            C:\Users\Kumar\AppData\Roaming\npm\karma.cmd  
+            (calls "%~dp0\node.exe"  "%~dp0\node_modules\karma-cli\bin\karma" %* to use this file; resolve function)
+            C:\Users\Kumar\AppData\Roaming\npm\node_modules\karma-cli\bin\karma  (has resolve function)
+            ~\karma-cli\bin\karma> tries to find my local karma version, else for global karma and execute it
+            
+        for windows:
+        1.set PATH=C:\Users\Kumar\AppData\Roaming\npm;
+        2.need to edit karma.cmd as below
+          @IF EXIST "%~dp0\node.exe" (
+            "%~dp0\node.exe"  "%~dp0\node_modules\karma-cli\bin\karma" %*
+          ) ELSE (
+            node  "%~dp0\node_modules\karma-cli\bin\karma" %*
+          )
+        
+        
 node:
 ----
 PATH:C:\Program Files\nodejs;C:\Users\Kumar\AppData\Roaming\npm;
@@ -15,7 +54,7 @@ C:\Users\Kumar\AppData\Roaming\npm
   
   [node_modules] folder contains all plugins
     bower (install javascrip framework)
-    karma (install and execute tesing framework)
+    karma (install and execute testing framework & plugins)
     karma-jasmine
     karma-chrome-launcher
 
