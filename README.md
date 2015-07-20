@@ -4,6 +4,22 @@ git
 http header::
 http://code.tutsplus.com/tutorials/http-headers-for-dummies--net-8039
 
+node:
+----
+PATH:C:\Program Files\nodejs;C:\Users\Kumar\AppData\Roaming\npm;
+C:\Users\Kumar\AppData\Roaming\npm
+  bower (config file)
+  bower.cmd (?)
+  karma
+  karma.cmd
+  
+  [node_modules] folder contains all plugins
+    bower (install javascrip framework)
+    karma (install and execute tesing framework)
+    karma-jasmine
+    karma-chrome-launcher
+
+
 
 npm
 ===
