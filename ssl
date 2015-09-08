@@ -1,0 +1,15 @@
+SSL
+---
+public key
+owner of cert (email, name, usage, duration, location)
+hash (ensure cert not tampered)
+root CA cert
+
+
+CA (maintains list signed & reovked cert)
+
+Self-Signed SSL Certificates  
+----------------------------
+Certificate Signing Request (CSR) can be generated and then given to a Certification Authority (CA)
+same entity that created the certificate also signed it
+self-signed certificate is the equivalent of someone stating adamantly that he is who he says he is.
