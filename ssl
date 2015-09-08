@@ -13,3 +13,31 @@ Self-Signed SSL Certificates
 Certificate Signing Request (CSR) can be generated and then given to a Certification Authority (CA)
 same entity that created the certificate also signed it
 self-signed certificate is the equivalent of someone stating adamantly that he is who he says he is.
+
+SSL Basics
+
+How SSL Works
+
+1. Browser Requests an SSL Site
+
+When a browser requests an SSL site from your server, it contacts a specific IP address on a different port (port 443) than what a standard website uses (port 80). The server challenges the browser with an "SSL handshake" which includes setting up an initial encryption session to make sure the connection is secure from the very beginning.
+
+2. Server Attempts to Match a Site with the SSL
+
+The server then looks up the site associated with the IP address it was contacted on and checks to see if there is an SSL certificate configured for it. If there isn't, the server returns an error to the browser and the connection fails; however, if there is an SSL Certificate (the public key) associated with the site, the server presents the site's certificate along with any other certificates that have signed it (the Certificate Authority chain) and then verifies all certificates according to the following:
+
+The site it has contacted matches at least one of the subject names in the site certificate
+The certificate is not expired or revoked
+Any signatures on the certificate are valid
+Certification Authority certificates presented are also not expired
+3. Browser Delivers Secure Site
+
+Most browsers have an internal repository of trusted Certificate Authorities; if the signer of the certificate is not in that repository, the browser presents a confirmation to the user to accept the certificate as valid and to optionally trust the certificate's signer as well.
+
+Once the certificate has been verified and accepted, the browser encrypts a response with it. The server then verifies the connection by decrypting the response with the SSL key and the secure connection is established.
+
+Self-Signed SSL Certificates
+
+An SSL certificate may be self-signed, meaning that the same entity that created the certificate also signed it, or a Certificate Signing Request (CSR) can be generated and then given to a Certification Authority (CA). A self-signed certificate is the equivalent of someone stating adamantly that he is who he says he is.
+
+A self-signed certificate can therefore be used to secure a connection to a site, but the identity of the site cannot be verified. In contrast, an SSL certificate signed by a CA is the equivalent of a person almost everyone trusts verifying that a person is who he says he is, and those certificates can be used to secure online transactions.
