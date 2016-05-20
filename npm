@@ -15,7 +15,7 @@ npm
   C:\Users[username]\AppData\Roaming\npm
   main goal is use nodejs to execute js files (bower, grunt, karma)
   bower {libs; bower.json}, 
-  grunt -> executes tasks in Gruntfile.js  (uses build.config.js as init config = var userConfig = require( './build.config.js' );)
+  grunt -> executes tasks in Gruntfile.js  (uses build.config.js; code = init config = var userConfig = require( './build.config.js' );)
   karma {testing; karma.conf.js} ..)
 ====================================================================
 
